@@ -1,1 +1,1 @@
-command: "echo test"
+command: "make test"
