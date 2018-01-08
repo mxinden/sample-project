@@ -1,1 +1,1 @@
-command: "make test"
+command: "./test.sh"
