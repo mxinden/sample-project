@@ -1,1 +1,7 @@
-command: "./test.sh"
+stages:
+        - name: 'first'
+          image: 'debian'
+          command: "echo 'first stage' && false"
+        - name: 'second'
+          image: 'debian'
+          command: "echo 'second stage'"
